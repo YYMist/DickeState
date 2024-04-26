@@ -26,8 +26,7 @@ qiskit_terra==0.45.1
 ```
 from DickeState import DickeState
 
-token = your ibm account token
-d = DickeState(n=5,k=3,token=None,backend=sim)
+d = DickeState(n=5,k=3,token=None,backend=None)
 d.get_qc()
 ```
 ![alt text](resources/image.png)
