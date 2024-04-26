@@ -7,9 +7,18 @@
 本專案目的是提供快速簡潔的方法來產生多體糾纏態Dicke State，使用者僅需呼叫函式即可獲得量子線路，並可對其進行測量、計數、後續的量子線路操作。
 
 ## Install
+
+首先 clone 本專案到本地端
+環境需要以下套件
 ```
-conda install --file requirements.txt
+matplotlib==3.8.2
+qiskit==0.45.1
+qiskit_aer==0.13.3
+qiskit_ibmq_provider==0.19.2
+qiskit_terra==0.45.1
 ```
+使用conda install或pip install 進行安裝
+
 ## Usage
 
 
