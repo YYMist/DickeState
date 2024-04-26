@@ -1,0 +1,5 @@
+matplotlib==3.8.2
+qiskit==0.45.1
+qiskit_aer==0.13.3
+qiskit_ibmq_provider==0.19.2
+qiskit_terra==0.45.1
